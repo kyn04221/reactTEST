@@ -2,8 +2,8 @@ import styled, { css } from 'styled-components';
 import { NavLink } from 'react-router-dom';
 
 const categories = [
-  { name: 'daegu', text: '대구 맛집' },
   { name: 'globalnews', text: '글로벌 뉴스' },
+  { name: 'daegu', text: '대구 맛집' },
   { name: 'gimhae', text: '김해 맛집' },
   { name: 'busanAtt', text: '부산 명소' },
 ];
@@ -36,7 +36,6 @@ const Category = styled(NavLink)`
     font-weight: 600;
     border-bottom: 2px solid #22b8cf;
     color: #22b8cf;
-    //실습2
     transition: color 0.3s ease, border-bottom 0.3s ease;
 
     &:hover {

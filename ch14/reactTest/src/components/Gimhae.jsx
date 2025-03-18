@@ -30,17 +30,16 @@ const RestaurantItemBlock = styled.div`
   }
 `;
 
-// 김해 맛집 정보를 보여주는 컴포넌트
 const Gimhae = ({ article }) => {
   const {
-    name,         // 업체명
-    category,     // 음식 종류
-    address,      // 주소
-    phone,        // 전화번호
-    businesshour, // 영업시간
-    menuprice,    // 메뉴
-    content,      // 간략 설명
-    images,       // 이미지 리스트
+    name,
+    category,
+    address,
+    phone,
+    businesshour,
+    menuprice,
+    content,
+    images,
   } = article;
 
   return (

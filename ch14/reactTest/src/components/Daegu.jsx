@@ -23,16 +23,15 @@ const MuseumItemBlock = styled.div`
   }
 `;
 
-// 대구 음식점 정보를 보여주는 컴포넌트
 const Daegu = ({ article }) => {
   const {
-    BZ_NM,      // 업체명
-    FD_CS,      // 음식 종류
-    GNG_CS,     // 주소
-    TLNO,       // 전화번호
-    MBZ_HR,     // 영업시간
-    MNU,        // 메뉴 (HTML 포함)
-    SMPL_DESC,  // 간략 설명
+    BZ_NM,
+    FD_CS,
+    GNG_CS,
+    TLNO,
+    MBZ_HR,
+    MNU,
+    SMPL_DESC,
   } = article;
 
   return (
